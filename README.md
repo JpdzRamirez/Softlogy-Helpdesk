@@ -22,6 +22,12 @@ La integración de Softlogy Helpdesk aprovecha todas las funcionalidades central
 ## Gestión de Tickets: Seguimiento eficiente y resolución de tickets de soporte.
 ### Gestión de Activos: Control y gestión de activos tecnológicos y recursos.
 ### Base de Conocimientos: 
+  Se realiza capacitación al personal de la empresa y documentación consecuente del proceso de integración y asi su respectivo manual de uso
+ <div align="center">
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/bec7cfa9-e4bd-452c-9c26-dcc23b0ad7d2" alt="Softlogy Helpdesk"/>
+</div> 
+<a href="https://github.com/user-attachments/files/18276885/exportstoryget.pdf">Documentación 👉🖱</a>
+
   Repositorio de soluciones y documentación para ayudar a usuarios y técnicos.
   Gestión de Problemas y Cambios: Gestión de problemas recurrentes y la implementación de cambios para mejorar los servicios.
 ### Catálogo de Servicios:
