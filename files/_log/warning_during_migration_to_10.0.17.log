@@ -1,0 +1,6 @@
+2024-12-06 08:49:20 [@DESKTOP-IANJSMN]
+The database schema is not consistent with the current GLPI version.
+It is recommended to run the "php bin/console database:check_schema_integrity" command to see the differences.
+2024-12-06 16:11:34 [@DESKTOP-IANJSMN]
+El esquema de la base de datos no es coherente con la versión actual de GLPI.
+It is recommended to run the "php bin/console database:check_schema_integrity" command to see the differences.

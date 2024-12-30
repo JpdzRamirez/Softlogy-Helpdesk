@@ -1,0 +1,129 @@
+2024-12-06 12:15:28 [@DESKTOP-IANJSMN]
+CSRF check failed for User ID:  at /front/login.php
+2024-12-07 11:28:49 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-07 11:28:50 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-07 11:28:52 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /front/tasktemplate.form.php
+2024-12-10 09:38:31 [2038@DESKTOP-IANJSMN]
+User ID: 2038 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\Session.php:1047 displayRightError()
+		C:\laragon\www\Softlogy\front\central.php:87 checkCentralAccess()
+2024-12-10 16:04:49 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:50 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:51 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:51 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:52 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:53 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:53 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:04:54 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:05:17 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:05:18 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:05:18 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-10 16:05:18 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-11 08:20:06 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /front/massiveaction.php
+2024-12-11 22:44:12 [2044@DESKTOP-IANJSMN]
+User ID: 2044 tried to access or perform an action on /front/profile.php with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\Session.php:1172 displayRightError()
+		C:\laragon\www\Softlogy\front\profile.php:38 checkRight()
+2024-12-11 22:44:15 [2044@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2044 at /front/user.form.php
+2024-12-11 22:44:18 [2044@DESKTOP-IANJSMN]
+User ID: 2044 tried to access or perform an action on /front/profile.php with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\Session.php:1172 displayRightError()
+		C:\laragon\www\Softlogy\front\profile.php:38 checkRight()
+2024-12-11 22:44:20 [2044@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2044 at /front/user.form.php
+2024-12-11 22:44:25 [2044@DESKTOP-IANJSMN]
+User ID: 2044 tried to access or perform an action on /front/profile.php with insufficient rights. Additional information: User is missing the 1 (Read) right for profile
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\Session.php:1172 displayRightError()
+		C:\laragon\www\Softlogy\front\profile.php:38 checkRight()
+2024-12-11 22:44:28 [2044@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2044 at /front/user.form.php
+2024-12-12 08:26:04 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access or perform an action on /front/user.form.php?id=2044 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6463 displayRightError()
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6556 displayAccessDeniedPage()
+		C:\laragon\www\Softlogy\front\user.form.php:253 displayFullPageForItem()
+2024-12-12 08:26:11 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access or perform an action on /front/user.form.php?id=2044 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6463 displayRightError()
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6556 displayAccessDeniedPage()
+		C:\laragon\www\Softlogy\front\user.form.php:253 displayFullPageForItem()
+2024-12-12 08:26:12 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access or perform an action on /front/user.form.php?id=2044 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6463 displayRightError()
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6556 displayAccessDeniedPage()
+		C:\laragon\www\Softlogy\front\user.form.php:253 displayFullPageForItem()
+2024-12-12 09:41:55 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access or perform an action on /front/domain.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (Update) on item Type: DomainRecord ID: -1
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:3059 displayRightError()
+		C:\laragon\www\Softlogy\front\domain.form.php:83 check()
+2024-12-12 09:42:02 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access or perform an action on /front/domain.form.php with insufficient rights. Additional information: User failed a can* method check for right 2 (Update) on item Type: DomainRecord ID: -1
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:3059 displayRightError()
+		C:\laragon\www\Softlogy\front\domain.form.php:83 check()
+2024-12-12 09:42:37 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access or perform an action on /front/domainrecord.form.php?domains_id=21&_in_modal=1 with insufficient rights. Additional information: User failed a can* method check for right 4 (Create) on item Type: DomainRecord ID: -1
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:3059 displayRightError()
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:2795 check()
+		C:\laragon\www\Softlogy\src\DomainRecord.php:340 initForm()
+		C:\laragon\www\Softlogy\front\domainrecord.form.php:74 showForm()
+2024-12-16 13:57:38 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/dropdownMassiveAction.php
+2024-12-16 14:16:01 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /front/massiveaction.php
+2024-12-16 15:32:06 [2001@DESKTOP-IANJSMN]
+User ID: 2001 tried to access a non-existent item /front/user.form.php?id=2002. Additional information: The item could not be found in the database
+	Stack Trace:
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6439 displayNotFoundError()
+		C:\laragon\www\Softlogy\src\CommonDBTM.php:6550 displayItemNotFoundPage()
+		C:\laragon\www\Softlogy\front\user.form.php:253 displayFullPageForItem()
+2024-12-18 09:59:06 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-18 09:59:07 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /ajax/getDropdownValue.php
+2024-12-18 11:54:25 [2001@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 2001 at /front/displaypreference.form.php
+2024-12-20 07:44:36 [0@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 0 at /front/login.php
+2024-12-20 08:02:50 [0@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 0 at /front/login.php
+2024-12-20 14:56:16 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/massiveaction.php
+2024-12-23 11:06:19 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/getDropdownValue.php
+2024-12-23 11:20:14 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/getDropdownValue.php
+2024-12-23 11:20:16 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/getDropdownValue.php
+2024-12-23 12:48:46 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/search.php
+2024-12-23 14:01:56 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/massiveaction.php
+2024-12-27 16:02:57 [1@DESKTOP-IANJSMN]
+CSRF check failed for User ID: 1 at /ajax/getDropdownValue.php

@@ -1,0 +1,1139 @@
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_queuednotifications` WHERE `glpi_queuednotifications`.`id` = '5402' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\CommonDBTM.php:1594                            CommonDBTM->getFromDB()
+  src\NotificationEventMailing.php:415               CommonDBTM->update()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_queuednotifications` WHERE `glpi_queuednotifications`.`id` = '5402' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\CommonDBTM.php:2050                            CommonDBTM->getFromDB()
+  src\NotificationEventMailing.php:418               CommonDBTM->delete()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.31Mio)"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `context` = 'core' AND `name` IN ('notification_uuid')
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\Config.php:2976                                DBmysql->request()
+  src\Config.php:3865                                Config::getConfigurationValues()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.28Mio)"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_configs` WHERE `context` = 'core' AND `name` = 'notification_uuid'
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:389                             DBmysql->request()
+  src\Config.php:3094                                CommonDBTM->getFromDBByCrit()
+  src\Config.php:3885                                Config::setConfigurationValues()
+  src\Config.php:3868                                Config::generateUuid()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.000\", 4.28Mio)"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_configs` (`context`, `name`, `value`) VALUES ('core', 'notification_uuid', 'qFNzbOmq4UsdQznwxnldiIwLlcOSptbZDWaSkRh3')
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysql.php:1376                               DBmysql->doQuery()
+  src\CommonDBTM.php:730                             DBmysql->insert()
+  src\CommonDBTM.php:1349                            CommonDBTM->addToDB()
+  src\Config.php:3111                                CommonDBTM->add()
+  src\Config.php:3885                                Config::setConfigurationValues()
+  src\Config.php:3868                                Config::generateUuid()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.000\", 4.28Mio)"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_users` WHERE `glpi_users`.`id` = '2001' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\Config.php:3118                                CommonDBTM->getFromDB()
+  src\Config.php:3885                                Config::setConfigurationValues()
+  src\Config.php:3868                                Config::generateUuid()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.000\", 4.29Mio)"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_tickets` WHERE `glpi_tickets`.`id` = '8840' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\NotificationEventMailing.php:197               CommonDBTM->getFromDB()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.000\", 4.28Mio)"} 
+[2024-12-07 16:46:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_documents` WHERE `glpi_documents`.`id` = '6450' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\NotificationEventMailing.php:292               CommonDBTM->getFromDB()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.000\", 4.28Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_queuednotifications` WHERE `glpi_queuednotifications`.`id` = '5401' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\CommonDBTM.php:1594                            CommonDBTM->getFromDB()
+  src\NotificationEventMailing.php:415               CommonDBTM->update()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"2.906\", 4.31Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_queuednotifications` WHERE `glpi_queuednotifications`.`id` = '5401' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\CommonDBTM.php:2050                            CommonDBTM->getFromDB()
+  src\NotificationEventMailing.php:418               CommonDBTM->delete()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.31Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `context` = 'core' AND `name` IN ('notification_uuid')
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\Config.php:2976                                DBmysql->request()
+  src\Config.php:3865                                Config::getConfigurationValues()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.28Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_configs` WHERE `context` = 'core' AND `name` = 'notification_uuid'
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:389                             DBmysql->request()
+  src\Config.php:3094                                CommonDBTM->getFromDBByCrit()
+  src\Config.php:3885                                Config::setConfigurationValues()
+  src\Config.php:3868                                Config::generateUuid()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.28Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_configs` (`context`, `name`, `value`) VALUES ('core', 'notification_uuid', 'AHLG5bmE66aYJevUWkTwOrEFdmzROAONuIC9Xhou')
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysql.php:1376                               DBmysql->doQuery()
+  src\CommonDBTM.php:730                             DBmysql->insert()
+  src\CommonDBTM.php:1349                            CommonDBTM->addToDB()
+  src\Config.php:3111                                CommonDBTM->add()
+  src\Config.php:3885                                Config::setConfigurationValues()
+  src\Config.php:3868                                Config::generateUuid()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.28Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_users` WHERE `glpi_users`.`id` = '2001' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\Config.php:3118                                CommonDBTM->getFromDB()
+  src\Config.php:3885                                Config::setConfigurationValues()
+  src\Config.php:3868                                Config::generateUuid()
+  src\NotificationTarget.php:292                     Config::getUuid()
+  src\NotificationEventMailing.php:166               NotificationTarget::getMessageIdForEvent()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.28Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_tickets` WHERE `glpi_tickets`.`id` = '8840' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\NotificationEventMailing.php:197               CommonDBTM->getFromDB()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 4.28Mio)"} 
+[2024-12-07 16:46:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\glpi\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_documents` WHERE `glpi_documents`.`id` = '6450' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:304                             DBmysql->request()
+  src\NotificationEventMailing.php:292               CommonDBTM->getFromDB()
+  src\QueuedNotification.php:680                     NotificationEventMailing::send()
+  src\CronTask.php:1027                              QueuedNotification::cronQueuedNotification()
+  front\cron.php:67                                  CronTask::launch()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.000\", 4.28Mio)"} 
+[2024-12-09 16:22:42] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_entities` (`id`, `level`, `name`, `completename`, `entities_id`, `comment`, `max_closedate`, `custom_css_code`, `date_creation`, `date_mod`) VALUES ('52', '3', 'Popayan', 'Root entity > Mimos > Popayan', '20', '', '2024-12-09 16:22:42', '', '2024-12-09 16:22:42', '2024-12-09 16:22:42')
+  Error: Duplicate entry '20-Popayan' for key 'glpi_entities.unicity'
+  Backtrace :
+  src\DBmysql.php:1376                               DBmysql->doQuery()
+  src\CommonDBTM.php:730                             DBmysql->insert()
+  src\CommonDBTM.php:1349                            CommonDBTM->addToDB()
+  front\dropdown.common.form.php:62                  CommonDBTM->add()
+  front\entity.form.php:58                           include()
+  {"user":"2001@DESKTOP-IANJSMN"} 
+[2024-12-10 09:37:29] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT `glpi_profiles_users`.`id`, `glpi_profiles_users`.`name`, `entities`.`completename` AS `locname`, `entities`.`id` AS `entID` FROM `glpi_profiles_users` LEFT JOIN `glpi_entities` AS `entities` ON (`entities`.`id` = `glpi_profiles_users`.`entities_id`) WHERE `glpi_profiles_users`.`id` IN ('3309') ORDER BY `locname`, `glpi_profiles_users`.`name`
+  Error: Unknown column 'glpi_profiles_users.name' in 'field list'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\Transfer.php:4185                              DBmysql->request()
+  front\transfer.action.php:67                       Transfer->showTransferList()
+  {"user":"2001@DESKTOP-IANJSMN"} 
+[2024-12-16 13:02:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Parque Industrial ET2', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '154'
+  Error: Duplicate entry '0-0-Parque Industrial ET2' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN"} 
+[2024-12-16 13:02:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Parque Industrial ET2', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '154'
+  Error: Duplicate entry '0-0-Parque Industrial ET2' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.195\", 3.72Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Amsa', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '83'
+  Error: Duplicate entry '0-0-Amsa' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.830\", 4.35Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '84'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.010\", 4.36Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Fontibón', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '109'
+  Error: Duplicate entry '0-0-Fontibón' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.040\", 4.37Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Urban 165', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '119'
+  Error: Duplicate entry '0-0-Urban 165' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.010\", 4.38Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Techos', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '122'
+  Error: Duplicate entry '0-0-Techos' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.006\", 4.38Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Corporativo', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '184'
+  Error: Duplicate entry '0-0-Corporativo' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.204\", 4.47Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Amsa', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '83'
+  Error: Duplicate entry '0-0-Amsa' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.603\", 5.75Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '84'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.003\", 5.75Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Fontibón', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '109'
+  Error: Duplicate entry '0-0-Fontibón' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 5.75Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Urban 165', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '119'
+  Error: Duplicate entry '0-0-Urban 165' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 5.75Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Techos', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '122'
+  Error: Duplicate entry '0-0-Techos' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 5.75Mio)"} 
+[2024-12-16 13:02:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Corporativo', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '184'
+  Error: Duplicate entry '0-0-Corporativo' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 5.75Mio)"} 
+[2024-12-16 13:02:53] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Elco / Muraglia', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '104'
+  Error: Duplicate entry '0-0-Elco / Muraglia' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.893\", 6.54Mio)"} 
+[2024-12-16 13:02:53] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Elco / Muraglia', `date_mod` = '2024-12-16 13:02:48' WHERE `id` = '104'
+  Error: Duplicate entry '0-0-Elco / Muraglia' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.035\", 6.97Mio)"} 
+[2024-12-16 13:03:19] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Techos', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '77'
+  Error: Duplicate entry '0-0-Techos' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN"} 
+[2024-12-16 13:03:19] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Corporativo', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '146'
+  Error: Duplicate entry '0-0-Corporativo' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.057\", 2.74Mio)"} 
+[2024-12-16 13:03:19] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '189'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.057\", 2.77Mio)"} 
+[2024-12-16 13:03:19] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Techos', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '77'
+  Error: Duplicate entry '0-0-Techos' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.034\", 3.21Mio)"} 
+[2024-12-16 13:03:19] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Corporativo', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '146'
+  Error: Duplicate entry '0-0-Corporativo' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 3.21Mio)"} 
+[2024-12-16 13:03:19] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '189'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.001\", 3.21Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Corporativo', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '86'
+  Error: Duplicate entry '0-0-Corporativo' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.476\", 4.25Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Trucks', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '87'
+  Error: Duplicate entry '0-0-Trucks' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.007\", 4.25Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '88'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.007\", 4.25Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Ecology', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '90'
+  Error: Duplicate entry '0-0-Ecology' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.044\", 4.26Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Corporativo', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '86'
+  Error: Duplicate entry '0-0-Corporativo' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.052\", 4.70Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Trucks', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '87'
+  Error: Duplicate entry '0-0-Trucks' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 4.70Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '88'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 4.70Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Ecology', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '90'
+  Error: Duplicate entry '0-0-Ecology' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 4.70Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '80'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.109\", 4.53Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '81'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.009\", 4.54Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Trucks', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '82'
+  Error: Duplicate entry '0-0-Trucks' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.018\", 4.54Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '80'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.038\", 4.99Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '81'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 4.99Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Trucks', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '82'
+  Error: Duplicate entry '0-0-Trucks' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 4.99Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Techos', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '55'
+  Error: Duplicate entry '0-0-Techos' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.241\", 4.70Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '94'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.008\", 4.70Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Ecology', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '95'
+  Error: Duplicate entry '0-0-Ecology' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.006\", 4.71Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Techos', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '55'
+  Error: Duplicate entry '0-0-Techos' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.037\", 5.14Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '94'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 5.14Mio)"} 
+[2024-12-16 13:03:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Ecology', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '95'
+  Error: Duplicate entry '0-0-Ecology' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 5.15Mio)"} 
+[2024-12-16 13:03:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '183'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.443\", 4.97Mio)"} 
+[2024-12-16 13:03:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '183'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.034\", 5.40Mio)"} 
+[2024-12-16 13:03:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Ecology', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '63'
+  Error: Duplicate entry '0-0-Ecology' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.350\", 5.22Mio)"} 
+[2024-12-16 13:03:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Protenus', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '91'
+  Error: Duplicate entry '0-0-Protenus' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.006\", 5.22Mio)"} 
+[2024-12-16 13:03:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Ecology', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '63'
+  Error: Duplicate entry '0-0-Ecology' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.036\", 5.66Mio)"} 
+[2024-12-16 13:03:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Protenus', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '91'
+  Error: Duplicate entry '0-0-Protenus' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 5.66Mio)"} 
+[2024-12-16 13:03:22] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Trucks', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '118'
+  Error: Duplicate entry '0-0-Trucks' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.815\", 5.80Mio)"} 
+[2024-12-16 13:03:22] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Trucks', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '118'
+  Error: Duplicate entry '0-0-Trucks' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.066\", 6.25Mio)"} 
+[2024-12-16 13:03:24] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '93'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"2.042\", 7.14Mio)"} 
+[2024-12-16 13:03:24] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '99'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.006\", 7.15Mio)"} 
+[2024-12-16 13:03:24] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Caria', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '93'
+  Error: Duplicate entry '0-0-Caria' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.035\", 7.58Mio)"} 
+[2024-12-16 13:03:24] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'MCP', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '99'
+  Error: Duplicate entry '0-0-MCP' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.002\", 7.58Mio)"} 
+[2024-12-16 13:03:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Elco / Muraglia', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '106'
+  Error: Duplicate entry '0-0-Elco / Muraglia' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonTreeDropdown.php:191                     CommonDBTM->update()
+  src\CommonDBTM.php:2104                            CommonTreeDropdown->pre_deleteItem()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.817\", 7.60Mio)"} 
+[2024-12-16 13:03:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: UPDATE `glpi_locations` SET `locations_id` = '0', `level` = '1', `completename` = 'Elco / Muraglia', `date_mod` = '2024-12-16 13:03:19' WHERE `id` = '106'
+  Error: Duplicate entry '0-0-Elco / Muraglia' for key 'glpi_locations.unicity'
+  Backtrace :
+  src\DBmysql.php:1499                               DBmysql->doQuery()
+  src\CommonDBTM.php:690                             DBmysql->update()
+  src\CommonDBTM.php:1706                            CommonDBTM->updateInDB()
+  src\CommonDBTM.php:951                             CommonDBTM->update()
+  src\CommonDBTM.php:798                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2105                            CommonDBTM->deleteFromDB()
+  src\MassiveAction.php:1513                         CommonDBTM->delete()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  {"user":"2001@DESKTOP-IANJSMN","mem_usage":"0.035\", 8.03Mio)"} 
+[2024-12-19 16:26:45] glpisqllog.ERROR: DBmysql::doQuery() in C:\laragon\www\Softlogy\src\DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT `glpi_profiles_users`.`id`, `glpi_profiles_users`.`name`, `entities`.`completename` AS `locname`, `entities`.`id` AS `entID` FROM `glpi_profiles_users` LEFT JOIN `glpi_entities` AS `entities` ON (`entities`.`id` = `glpi_profiles_users`.`entities_id`) WHERE `glpi_profiles_users`.`id` IN ('3552') ORDER BY `locname`, `glpi_profiles_users`.`name`
+  Error: Unknown column 'glpi_profiles_users.name' in 'field list'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1105                               DBmysqlIterator->execute()
+  src\Transfer.php:4185                              DBmysql->request()
+  front\transfer.action.php:67                       Transfer->showTransferList()
+  {"user":"2001@DESKTOP-IANJSMN"} 
