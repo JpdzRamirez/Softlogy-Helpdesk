@@ -26,7 +26,7 @@ La integración de Softlogy Helpdesk aprovecha todas las funcionalidades central
  <div align="center">
  <img align="center" width="500px" src="https://github.com/user-attachments/assets/bec7cfa9-e4bd-452c-9c26-dcc23b0ad7d2" alt="Softlogy Helpdesk"/>
 </div> 
-<a href="https://github.com/user-attachments/files/18276885/exportstoryget.pdf">Documentación 👉🖱</a>
+<a align="center" href="https://github.com/user-attachments/files/18276885/exportstoryget.pdf">Documentación 👉🖱</a>
 
   Repositorio de soluciones y documentación para ayudar a usuarios y técnicos.
   Gestión de Problemas y Cambios: Gestión de problemas recurrentes y la implementación de cambios para mejorar los servicios.
