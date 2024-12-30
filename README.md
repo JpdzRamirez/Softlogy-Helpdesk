@@ -11,7 +11,7 @@
 ## Softlogy Helpdesk Integration: A Comprehensive Support Solution
 
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/ab6b6350-b4c8-40c1-a3b8-a9fa68c663e0" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/ab6b6350-b4c8-40c1-a3b8-a9fa68c663e0" alt="Softlogy Helpdesk"/>
 </div>
 La Integración de Softlogy Helpdesk es una plataforma de mesa de ayuda personalizada y completamente configurada basada en GLPI, diseñada para gestionar los casos de soporte específicamente para el servicio FE-Electronic Invoicing. Esta integración combina las poderosas funcionalidades de GLPI con las necesidades únicas de la compañía, ofreciendo una solución integral para la gestión de tickets de soporte, asegurando una resolución rápida y mejorando la satisfacción del cliente.
 
@@ -25,8 +25,9 @@ La integración de Softlogy Helpdesk aprovecha todas las funcionalidades central
   Se realiza capacitación al personal de la empresa y documentación consecuente del proceso de integración y asi su respectivo manual de uso
  <div align="center">
  <img align="center" width="500px" src="https://github.com/user-attachments/assets/bec7cfa9-e4bd-452c-9c26-dcc23b0ad7d2" alt="Softlogy Helpdesk"/>
+  <br>
+  <a align="center" href="https://github.com/user-attachments/files/18276885/exportstoryget.pdf">Documentación 👉🖱</a>
 </div> 
-<a align="center" href="https://github.com/user-attachments/files/18276885/exportstoryget.pdf">Documentación 👉🖱</a>
 
   Repositorio de soluciones y documentación para ayudar a usuarios y técnicos.
   Gestión de Problemas y Cambios: Gestión de problemas recurrentes y la implementación de cambios para mejorar los servicios.
@@ -38,13 +39,13 @@ Informes y Paneles de Control: Información en tiempo real sobre el estado de lo
 
 ### Categorías ITIL: 
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/860d15b5-d600-483f-98ef-029d26db47be" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/860d15b5-d600-483f-98ef-029d26db47be" alt="Softlogy Helpdesk"/>
 </div>
 <p> Clasificación clara de los tickets e incidencias para una resolución más ágil.</p>
 
 ### Acuerdos de Servicios: 
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/e51ab444-b5d3-409a-b4c8-13faee0e5be7" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/e51ab444-b5d3-409a-b4c8-13faee0e5be7" alt="Softlogy Helpdesk"/>
 </div>
 <p>Creación de Acuerdos de Nivel de Servicio (SLA) para definir los tiempos de respuesta y los objetivos de resolución esperados. </p>
  
@@ -56,7 +57,7 @@ Informes y Paneles de Control: Información en tiempo real sobre el estado de lo
 
 ## Personalización del Front-End Empresarial
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/aaa8d965-a65b-4106-959c-88b027d8e55a" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/aaa8d965-a65b-4106-959c-88b027d8e55a" alt="Softlogy Helpdesk"/>
 </div>
 Personalización de la interfaz de usuario para reflejar la marca y los procesos internos de la empresa.
 
@@ -75,7 +76,7 @@ Asegurando la consistencia de los datos y optimizando las tablas subyacentes de 
 
 ## Configuración de Roles y Accesos
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/12ac53cf-3813-4489-8623-c7b8aca032d1" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/12ac53cf-3813-4489-8623-c7b8aca032d1" alt="Softlogy Helpdesk"/>
 </div>
 <p>Ajuste de roles para controlar lo que cada tipo de usuario puede acceder y modificar dentro de GLPI.</p>
 
@@ -87,13 +88,13 @@ Parametrización de las categorías ITIL para la gestión de incidencias, proble
 
 ## Desarrollo de la Herramienta SoftlogyGenerator:
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/d2a2afd1-8e03-43de-ad40-02d7945f78e8" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/d2a2afd1-8e03-43de-ad40-02d7945f78e8" alt="Softlogy Helpdesk"/>
 </div>
 <p>Desarrollo de una herramienta personalizada para la carga de puntos de venta de manera fluida en GLPI.</p>   
 
 ## Cargue de Clientes:
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/5238580f-8c57-4be8-af31-772cb2e454d0" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/5238580f-8c57-4be8-af31-772cb2e454d0" alt="Softlogy Helpdesk"/>
 </div>
 <ul>
  <li>Script para Cargue de Clientes: Automatización de la importación de datos de clientes al sistema.</li>
@@ -114,7 +115,7 @@ Configuración de reglas automáticas para tareas, notificaciones y escalamiento
 
 ## Pruebas de Configuración de Correo Office 365:
 <div align="center">
- <img align="center" width="300px" src="https://github.com/user-attachments/assets/01bdb36d-612a-456c-8944-c9bade3596c1" alt="Softlogy Helpdesk"/>
+ <img align="center" width="500px" src="https://github.com/user-attachments/assets/01bdb36d-612a-456c-8944-c9bade3596c1" alt="Softlogy Helpdesk"/>
 </div>
 
 ## Pruebas de configuración de IMAP y SMTP.
