@@ -7,6 +7,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/GLPI_PROJECT.svg?style=social&label=Follow)](https://twitter.com/GLPI_PROJECT)
 
 <h1> GLPI VERSION <strong>10.0.17</strong></h1>
+
 ## Softlogy Helpdesk Integration: A Comprehensive Support Solution
 
 <div align="center">
